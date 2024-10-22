@@ -292,7 +292,6 @@ Penataan antarmuka pengguna untuk membuat aplikasi terlihat baik dan responsif d
 
 ---
 
-Ini adalah ringkasan konsep yang digunakan dalam pengembangan perangkat lunak untuk memastikan bahwa aplikasi yang dibangun dapat dikelola, diujicoba, dan dikembangkan dengan baik.
 
 
 Repository untuk mata kuliah mobile programming dan praktikum bertanya materi dan fixing bug
