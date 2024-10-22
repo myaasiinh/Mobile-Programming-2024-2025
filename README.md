@@ -195,6 +195,86 @@ Metodologi pengembangan perangkat lunak di mana tes ditulis sebelum kode impleme
 ## 3. MVVM (Model-View-ViewModel)
 Pola arsitektur yang memisahkan logika bisnis (Model), tampilan antarmuka (View), dan pengelolaan data (ViewModel) untuk meningkatkan keterpisahan dan keterkelolaan kode.
 
+Contoh :
+
+lib :
+
+      core:
+        - global_component:
+          - Typography.dart 
+          - ButtonComponent.dart 
+          - ProgressBarComponent.dart 
+          - AvatarComponent.dart 
+          - NetworkImageLoader.dart 
+        - config :
+          - main_app.dart
+        - utils :
+          - route_utils.dart
+        - constants :
+          - string
+          - color
+          - images
+
+
+      data:
+          course:
+          - modelresponses:
+            - CourseResponse.dart 
+          - dummy:
+            - DummyCourses.dart 
+          profile:
+          - modelresponses:
+            - ProfileResponse.dart 
+          - dummy:
+            - DummyProfile.dart 
+          quizez:
+          - modelresponses:
+            - QuizResponse.dart 
+          - dummy:
+            - DummyQuiz.dart    
+
+
+
+      features:
+        course_display:
+          - screen:
+            - HomeScreen.dart
+          - widgets:
+            - CourseCardWidget.dart
+            - ContinueLearningWidget.dart
+            - AvatarWidget.dart
+          - controller:
+            - HomeController.dart 
+        quiz_interface:
+          - screen:
+            - QuizScreen.dart 
+          - widgets:
+            - QuizCardWidget.dart 
+            - AnswerOptionWidget.dart 
+            - ProgressBarComponent.dart 
+          - controller:
+            - QuizController.dart 		
+        onboarding:
+          - screen:
+            - WelcomeScreen.dart 
+          - widgets:
+            - WelcomeIllustrationWidget.dart
+            - GetStartedButtonWidget.dart 
+          - controller:
+            - WelcomeController.dart		
+          profile_management:
+          - screen:
+            - ProfileScreen.dart 
+          - widgets:
+            - AvatarWidget.dart 
+            - ProfileDetailsWidget.dart 
+          - controller:
+            - ProfileController.dart 
+
+
+	
+
+
 ## 4. Clean Code, Maintainable, Readable, Scalable
 Prinsip-prinsip menulis kode yang bersih dan rapi agar mudah dipelihara, dibaca, serta dapat diskalakan. Kode yang terstruktur dengan baik mendukung kemudahan pengembangan di masa depan dan meminimalkan kesalahan.
 
