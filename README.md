@@ -7,6 +7,188 @@ Berikut adalah teori singkat dari konsep-konsep software engineering yang disebu
 ## 1. Breakdown Task
 Proses memecah fitur atau tugas besar menjadi unit-unit lebih kecil dan terkelola. Setiap unit memiliki tanggung jawab yang jelas, memudahkan pengembangan, pengujian, dan pemeliharaan.
 
+Contoh :
+
+dari gambar dimana sesuai struktur file ini, petakan perfile algoritma dalam penjelasan bahasa indonesia cara codenya : 
+
+lib :
+
+  ```
+core:
+    - global_component:
+      - Typography.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - ButtonComponent.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - ProgressBarComponent.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - AvatarComponent.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - NetworkImageLoader.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+    - config :
+      - main_app.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+    - utils :
+      - route_utils.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+    - constants :
+      - string -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - color -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - images -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+
+
+  data:
+      course:
+      - modelresponses:
+        - CourseResponse.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - dummy:
+        - DummyCourses.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      profile:
+      - modelresponses:
+        - ProfileResponse.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - dummy:
+        - DummyProfile.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      quizez:
+      - modelresponses:
+        - QuizResponse.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - dummy:
+        - DummyQuiz.dart    -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+
+
+
+  features:
+    course_display:
+      - screen:
+        - HomeScreen.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - widgets:
+        - CourseCardWidget.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+        - ContinueLearningWidget.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+        - AvatarWidget.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - controller:
+        - HomeController.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+    quiz_interface:
+      - screen:
+        - QuizScreen.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - widgets:
+        - QuizCardWidget.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+        - AnswerOptionWidget.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+        - ProgressBarComponent.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - controller:
+        - QuizController.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya 		
+    onboarding:
+      - screen:
+        - WelcomeScreen.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - widgets:
+        - WelcomeIllustrationWidget.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+        - GetStartedButtonWidget.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - controller:
+        - WelcomeController.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya		
+      profile_management:
+      - screen:
+        - ProfileScreen.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - widgets:
+        - AvatarWidget.dart  -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+        - ProfileDetailsWidget.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+      - controller:
+        - ProfileController.dart -> buatkan step deskripsi cara code sesuai digambar itu dimana :
+				- 
+				-
+				- dan seterusnya
+```
+
 ## 2. TDD (Test-Driven Development)
 Metodologi pengembangan perangkat lunak di mana tes ditulis sebelum kode implementasi. Tujuannya adalah untuk memastikan setiap fungsi berjalan dengan benar dan sesuai spesifikasi sebelum diintegrasikan ke sistem.
 
