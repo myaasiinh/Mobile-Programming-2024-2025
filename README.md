@@ -290,8 +290,18 @@ Proses menghubungkan aplikasi dengan layanan eksternal melalui Application Progr
 ## 8. Layouting
 Penataan antarmuka pengguna untuk membuat aplikasi terlihat baik dan responsif di berbagai ukuran layar. Layouting yang baik mempertimbangkan estetika, fungsi, dan pengalaman pengguna.
 
----
+## 9. Version Control
+Sistem yang digunakan untuk melacak perubahan pada kode sumber, memungkinkan pengembang untuk mengembalikan atau memperbaiki kode sebelumnya jika terjadi kesalahan. Version Control System (VCS) seperti Git mendukung kolaborasi tim dengan menjaga setiap perubahan versi dari aplikasi, serta menghindari konflik kode ketika bekerja secara bersamaan.
+
+## 10. TFLite (TensorFlow Lite)
+Framework yang dioptimalkan untuk menjalankan model machine learning pada perangkat seluler atau embedded. Dengan TFLite, model AI dapat dijalankan langsung di perangkat, mengurangi ketergantungan pada server dan mempercepat respons aplikasi.
+
+## 11. Build Release
+Proses akhir pengembangan aplikasi di mana kode yang sudah diuji dikompilasi, dioptimalkan, dan disiapkan untuk diunggah ke toko aplikasi seperti Google Play atau App Store. Build release memastikan aplikasi siap digunakan, bebas dari bug, dan berjalan stabil pada perangkat pengguna.
 
 Ini adalah ringkasan konsep yang digunakan dalam pengembangan perangkat lunak untuk memastikan bahwa aplikasi yang dibangun dapat dikelola, diujicoba, dan dikembangkan dengan baik.
+
+---
+
 
 
